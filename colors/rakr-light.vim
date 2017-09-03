@@ -269,7 +269,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
   " Default Colors
   call <SID>X("Normal",                     fg2,      bg2,      "none")
-  call <SID>X("Comment",                    fg1,      "",       "italic")
+  call <SID>X("Comment",                    fg1,      "",       "")
   call <SID>X("Constant",                   accent32, "",       "")
   call <SID>X("Delimiter",                  fg1,      "",       "none")
   call <SID>X("Identifier",                 accent12, "",       "")
